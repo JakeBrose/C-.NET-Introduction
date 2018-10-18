@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace bangazoncli
+namespace bangazon
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Bangazon");
+            DateTime purchaseDate=DateTime.Now;
+            string lastName="Brose";
+            var firstName="Jake";
+            Console.WriteLine($"{firstName} {lastName} purchased on {purchaseDate}");
         }
     }
 }
